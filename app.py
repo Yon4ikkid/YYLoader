@@ -223,10 +223,6 @@ class MyApp(tk.Tk):
         
         
 if __name__ == '__main__':
-    if sys.argv[1] == '-c':
-        # CMD
-        pass
-    else:
-        app = MyApp()
-        app.mainloop()
-        app.close()
+    app = MyApp()
+    app.mainloop()
+    app.close()
