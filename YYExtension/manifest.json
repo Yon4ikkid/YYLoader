@@ -1,0 +1,28 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"DExt",
+    
+    "browser_action":{
+      "default_title": "YYDownload",
+      "default_icon": "icons/icon.png",
+      "default_popup": "popups/popup.html"
+
+    },
+    "permissions": [
+      "tabs",
+      "storage",
+      "http://localhost:32567/"
+    ],
+    "background":{
+      "scripts":["background.js"]
+    },
+    "commands":{
+      "_execute_browser_action": {
+        "suggested_key": {
+            "default": "Ctrl+Shift+S"
+        },
+        "description": "Initiate download"
+      }
+    }
+  }

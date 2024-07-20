@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+    <title>YYDownload</title>
+</head>
+
+<body>
+    <div id="main-div">
+        <div id="download-div" class="cls-content-div">
+            <h1 id="video-title">Download</h1>
+            <h4>Video Stream:</h4>
+            <select id="video-list" class="cls-stream-select" size="4">
+                <option class="cls-format-list-element" value="bestvideo" selected>Auto</option>
+            </select>
+            <h4>Audio Stream:</h4>
+            <select id="audio-list" class="cls-stream-select" size="4">
+                <option class="cls-format-list-element" value="bestaudio/best" selected>Auto</option>
+            </select>
+            <div id="button-div">
+                <div class="lds-dual-ring" id="loader"></div>
+                <button type="button" id="initiate-download-button" disabled>START 🠊</button>
+            </div>
+        </div>
+        <div id="task-div" class="cls-content-div">
+            <h1>Tasks</h1>
+            <p>TODO</p>
+        </div>
+        <button id="flip-button">&lt;&lt;</button>
+    </div>
+</body>
+
+</html>
