@@ -1,0 +1,10 @@
+[server]
+port = 32567
+
+[download]
+accepted_extensions = [
+    "m4a",
+    "mp4",
+    "webm"
+]
+directory = "D:/Yon/Downloads/YYLoads"
